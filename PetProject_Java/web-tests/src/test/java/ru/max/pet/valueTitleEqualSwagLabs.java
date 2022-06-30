@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
 import java.util.HashMap;
 
-public class ValueTitleEqualSwagLabs {
+public class valueTitleEqualSwagLabs {
 
     @Test
     public void setUp() throws Exception{

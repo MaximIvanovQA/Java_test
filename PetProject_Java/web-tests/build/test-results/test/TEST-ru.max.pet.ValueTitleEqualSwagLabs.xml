@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.max.pet.ValueTitleEqualSwagLabs" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-30T00:37:13" hostname="fedora" time="6.6">
+  <properties/>
+  <testcase name="setUp()" classname="ru.max.pet.ValueTitleEqualSwagLabs" time="6.6"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[июн. 30, 2022 3:37:13 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+июн. 30, 2022 3:37:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
