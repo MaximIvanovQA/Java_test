@@ -8,10 +8,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
 import java.util.HashMap;
 
-public class valueTitleEqualSwagLabs {
+public class valueTitleEqualSwagLabsTest extends BaseTest {
 
     @Test
-    public void setUp() throws Exception{
+    public void testValueTitleEqualSwagLabs() throws Exception {
         ChromeOptions options = new ChromeOptions();
         options.setCapability("selenoid:options", new HashMap<String, Object>() {{
             put("enableVideo", false);

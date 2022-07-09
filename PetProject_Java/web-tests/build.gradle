@@ -10,11 +10,12 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.testng:testng:7.6.0'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.1.4'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    //testImplementation 'org.testng:testng:7.6.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.2.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.2.0'
+    implementation project (':web-client')
 }
 
 test {
